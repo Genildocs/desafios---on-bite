@@ -2,12 +2,11 @@
 Assuma que a string não possui nenhuma letra com acento, numero ou caractere especial, apenas letras e espaços. */
 
 function returnaLetra(str){
-    const alphabets = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'.split(' ');
-    const string = str.split('');
-    for (let i = 0; i < alphabets.length; i++){
-        if ()
-    }
+    const string = str.toLowerCase().split('').sort();
+    return `A maior letra do alfabeto nessa string é: (${string[string.length -1]}).`;
 }
 
 console.log(returnaLetra('Hello'));
 console.log(returnaLetra('lorem ipsum'));
+console.log(returnaLetra('vaca'));
+console.log(returnaLetra('May the force be with you'));
