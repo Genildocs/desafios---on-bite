@@ -3,9 +3,9 @@ Assuma que a string não possui nenhuma letra com acento, numero ou caractere es
 
 function returnaLetra(str){
     const alphabets = 'a b c d e f g h i j k l m n o p q r s t u v w x y z'.split(' ');
-    
-    for(let i= 0; i < alphabets.length; i++){
-        console.log(i);
+    const string = str.split('');
+    for (let i = 0; i < alphabets.length; i++){
+        if ()
     }
 }
 
