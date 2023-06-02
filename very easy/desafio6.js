@@ -3,12 +3,20 @@
 * apenas letras e espaçõs.*/
 
 function inverteString(str){
-    const stringArray = str.toLowerCase().split(' ').reverse();
-    return stringArray;
+    const stringArray = str.toLowerCase().split(' ');
+    const stringInvertida = [];
+    for (let i = 0; i < stringArray.length; i++){
+        stringInvertida.push(stringArray[i].split('').reverse().join(''))
+    }
+
+    return stringInvertida.join(' ');
 }
 
 console.log(inverteString('Lorem ipsum dolore sec avanti'));
 console.log(inverteString('This is an apple'));
+console.log(inverteString('Gosto de paçoca'));
+console.log(inverteString('It s over nine thousand'));
+
 
 
 
