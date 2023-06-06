@@ -8,7 +8,7 @@ function verificaString(str){
         if (objetoString[palavra]){ //Verifica se algum valor de palavra existe como propriedade no objeto.
             objetoString[palavra]++ //incrementa o valor cada vez que um valor é repetido em palavra.
         }else {
-            objetoString[palavra] = 1; //Se não existir ele adicionar junto com o valor 11.
+            objetoString[palavra] = 1; //Se não existir ele adicionar junto com o valor 1.
         }
     }
     const valoresIguais = Object.values(objetoString).every(valor => valor === Object.values(objetoString)[0]);
