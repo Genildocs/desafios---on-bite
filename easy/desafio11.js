@@ -3,7 +3,7 @@
 * Os pares devem ser ordenados de forma que primeiro aumente o valor de y e depois o valor de x. Apenas
 * o quadrante onde x e y são positivos deve ser considerado.*/
 
-/*function ordenacao(array){
+function ordenacao(array){
 
     if(array[0] && array[1] < 0){
         return array = []
@@ -14,12 +14,5 @@
 }
 
 console.log(ordenacao([2,2]))
-console.log(ordenacao([-3,-3]))*/
+console.log(ordenacao([-3,-3]))
 
-const x = [2,2];
-const y = [];
-for (let i =0; i < x.length; i++){
-    y.push(i)
-}
-
-console.log(y)
