@@ -13,5 +13,5 @@ function fatorial(number){
 
 }
 
-console.log(fatorial(5n))
+console.log(fatorial(3n))
 console.log(fatorial(15n))
