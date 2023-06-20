@@ -13,7 +13,7 @@ function verificaString(str){
     }
     const valoresIguais = Object.values(objetoString).every(valor => valor === Object.values(objetoString)[0]);
 
-    return valoresIguais;
+    return objetoString;
 }
 console.log(verificaString('ssd'));
 console.log(verificaString('This is Thee'));

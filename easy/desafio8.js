@@ -18,4 +18,5 @@ console.log(formataName('John Ronald Reuel Tolkien'))
 console.log(formataName('George Raymond Richard Martin'))
 console.log(formataName('Isaac Larrubia Ferreira Pontes'))
 console.log(formataName('crhistopher james paolini'))
+console.log(formataName('Nilo ney coutinho menezes'))
 /*Saida: TOLKIEN, J.R.R.*/
