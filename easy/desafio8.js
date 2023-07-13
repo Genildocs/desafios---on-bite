@@ -19,4 +19,5 @@ console.log(formataName('George Raymond Richard Martin'))
 console.log(formataName('Isaac Larrubia Ferreira Pontes'))
 console.log(formataName('crhistopher james paolini'))
 console.log(formataName('Nilo ney coutinho menezes'))
+console.log(formataName('Genildo Cerqueira Souza'))
 /*Saida: TOLKIEN, J.R.R.*/
